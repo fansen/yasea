@@ -576,9 +576,9 @@ jint JNI_OnLoad(JavaVM *vm, void *reserved) {
         return JNI_ERR;
     }
 
-    jclass clz = jenv->FindClass("net/ossrs/yasea/SrsEncoder");
+    jclass clz = jenv->FindClass("im/faster/FasterEncoder");
     if (clz == NULL) {
-        LIBENC_LOGE("Class \"net/ossrs/yasea/SrsEncoder\" not found");
+        LIBENC_LOGE("Class \"im/faster/FasterEncoder\" not found");
         return JNI_ERR;
     }
 

@@ -1,2 +1,2 @@
--keep class net.ossrs.yasea.**{*;}
--keep class net.ossrs.yasea.SrsEncoder{*;}
+-keep class im.faster.**{*;}
+-keep class im.faster.FasterEncoder{*;}

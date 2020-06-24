@@ -1,14 +1,14 @@
 package com.seu.magicfilter.advanced;
 
-import java.nio.ByteBuffer;
-
 import android.opengl.GLES20;
 
-import com.seu.magicfilter.utils.MagicFilterType;
-import net.ossrs.yasea.R;
-
 import com.seu.magicfilter.base.gpuimage.GPUImageFilter;
+import com.seu.magicfilter.utils.MagicFilterType;
 import com.seu.magicfilter.utils.OpenGLUtils;
+
+import java.nio.ByteBuffer;
+
+import im.faster.R;
 
 public class MagicSunriseFilter extends GPUImageFilter{
     private int mMaskGrey1TextureId = -1;
